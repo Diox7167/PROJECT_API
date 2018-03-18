@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PROJECT_API</string>
+    <string name="connexion">Connexion</string>
+    <string name="inscription">Inscription</string>
+    <string name="se_souvenir_de_moi">Se souvenir de moi</string>
+    <string name="register">Inscription :</string>
+    <string name="valider">Valider</string>
+    <string name="accueil">Accueil</string>
+    <string name="d_connexion">Déconnexion</string>
+</resources>
