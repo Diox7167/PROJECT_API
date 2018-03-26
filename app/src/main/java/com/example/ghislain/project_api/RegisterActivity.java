@@ -17,7 +17,7 @@ import com.example.ghislain.project_api.bdd.MasterBDD;
 import com.example.ghislain.project_api.myrequest.MyRequest;
 
 import java.util.Map;
-
+import com.example.ghislain.project_api.api.MasterAPI;
 /**
  * Created by GHISLAIN on 11/03/2018.
  */
@@ -79,6 +79,16 @@ public class RegisterActivity extends AppCompatActivity {
 
                         @Override
                         public void inputError(Map<String, String> errors) {
+                            //TODO
+                            MasterAPI ma = new MasterAPI();
+                            String apiResult;
+                            if(ma.WOWRequestGuild("Hyjal", "KWT")){
+                                apiResult = ma.getLastResponseContent();
+                            }else {
+                                errors.put("responseCode", "" + ma.getResponseCode());
+                            }
+
+
                             pb_loader.setVisibility(View.GONE);
                             if (errors.get("pseudo") != null){
                                 til_pseudo.setError(errors.get("pseudo"));
