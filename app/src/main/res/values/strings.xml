@@ -4,7 +4,16 @@
     <string name="inscription">Inscription</string>
     <string name="se_souvenir_de_moi">Se souvenir de moi</string>
     <string name="register">Inscription :</string>
-    <string name="valider">Valider</string>
     <string name="accueil">Accueil</string>
     <string name="d_connexion">Déconnexion</string>
+    <string name="api_wow">API WOW</string>
+    <string name="information_guilde">Information Guilde</string>
+    <string name="textview" />
+    <string name="matchs_r_cents">Matchs récents</string>
+    <string name="information_invocateur">Information invocateur</string>
+    <string name="requ_tes_api_lol">Requêtes API LOL</string>
+    <string name="api_lol">API LOL</string>
+    <string name="valider">Valider</string>
+    <string name="nom_string_information_invocateur">Nom @string/information_invocateur</string>
+    <string name="nom_invocteur">Nom invocteur</string>
 </resources>

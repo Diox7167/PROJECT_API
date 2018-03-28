@@ -26,6 +26,37 @@
         <activity
             android:name=".HomeActivity">
         </activity>
+
+        <activity
+            android:name=".APIWOWActivity">
+        </activity>
+
+        <activity
+            android:name=".APIWOWRequestGuildeActivity">
+        </activity>
+
+        <activity
+            android:name=".APIWOWRespGuildeActivity">
+        </activity>
+
+        <activity
+            android:name=".APIWOWRespBossList">
+        </activity>
+
+
+
+        <activity
+            android:name=".APILOLActivity">
+        </activity>
+
+        <activity
+            android:name=".APILOLRequestSummonerActivity">
+        </activity>
+
+        <activity
+            android:name=".APILOLRespSummonerActivity">
+        </activity>
+
     </application>
 
 </manifest>
