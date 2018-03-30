@@ -56,7 +56,7 @@ public class RegisterActivity extends AppCompatActivity {
                 //MasterBDD bdd = new MasterBDD();
                 //boolean ok = bdd.userRegister("BERNARD", "Ghislain");
 
-                //Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                //Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                 //startActivity(intent);
 
                 String pseudo = til_pseudo.getEditText().getText().toString().trim();
@@ -70,7 +70,7 @@ public class RegisterActivity extends AppCompatActivity {
                         public void onSuccess(String message) {
                             pb_loader.setVisibility(View.GONE);
 
-                            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                            Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                             intent.putExtra("REGISTER", message);
                             startActivity(intent);
                             finish();

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.ghislain.project_api.MainActivity">
+    tools:context="com.example.ghislain.project_api.LoginActivity">
 
     <TextView
         android:id="@+id/tvTitle"

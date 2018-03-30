@@ -31,7 +31,7 @@ public class APIWOWRequestGuildeActivity extends Activity {
                 final String realm = til_realm.getEditText().getText().toString().trim();
                 final String guilde = til_guilde.getEditText().getText().toString().trim();
 
-                Intent intent = new Intent(getApplicationContext(), APIWOWRespGuildeActivity.class);
+                Intent intent = new Intent(APIWOWRequestGuildeActivity.this, APIWOWRespGuildeActivity.class);
                 intent.putExtra("REALM", realm);
                 intent.putExtra("GUILDE", guilde);
                 startActivity(intent);

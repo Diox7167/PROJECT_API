@@ -35,9 +35,8 @@ public class APIWOWActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getApplicationContext(), APIWOWRespBossList.class);
+                Intent intent = new Intent(APIWOWActivity.this, APIWOWRespBossList.class);
                 startActivity(intent);
-                finish();
             }
         });
     }

@@ -16,4 +16,7 @@
     <string name="valider">Valider</string>
     <string name="nom_string_information_invocateur">Nom @string/information_invocateur</string>
     <string name="nom_invocteur">Nom invocteur</string>
+    <string name="ajouter_une_api">Ajouter une API</string>
+    <string name="annuler">Annuler</string>
+    <string name="confirmer">Confirmer</string>
 </resources>

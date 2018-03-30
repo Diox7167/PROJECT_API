@@ -33,7 +33,13 @@
     <ListView
         android:id="@+id/lvAPI"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="263dp" />
+
+    <Button
+        android:id="@+id/btAjouAPI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ajouter_une_api" />
 
 
 </LinearLayout>

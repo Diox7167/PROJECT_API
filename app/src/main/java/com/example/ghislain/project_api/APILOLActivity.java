@@ -23,9 +23,8 @@ public class APILOLActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getApplicationContext(), APILOLRequestSummonerActivity.class);
+                Intent intent = new Intent(APILOLActivity.this, APILOLRequestSummonerActivity.class);
                 startActivity(intent);
-                finish();
             }
         });
 

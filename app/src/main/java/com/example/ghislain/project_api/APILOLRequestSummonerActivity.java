@@ -29,10 +29,9 @@ public class APILOLRequestSummonerActivity extends Activity {
 
                 final String usernameSummoner = til_username.getEditText().getText().toString().trim();
 
-                Intent intent = new Intent(getApplicationContext(), APILOLRespSummonerActivity.class);
+                Intent intent = new Intent(APILOLRequestSummonerActivity.this, APILOLRespSummonerActivity.class);
                 intent.putExtra("SUMMONER", usernameSummoner);
                 startActivity(intent);
-                finish();
             }
         });
     }
